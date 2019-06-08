@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Item Viewer</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="page panel">
+      <div class="gallery">
+        <div id="photo-viewer"></div>
+        <div id="thumbnails">
+          <a href="img/photo-1.jpg" class="thumb active" title="Pierre Cardin"><img src="img/thumb-1.jpg" alt="Mens Polo Shirt" /></a>
+          <a href="img/photo-2.jpg" class="thumb" title="Pierre Cardin"><img src="img/thumb-2.jpg" alt="Mens Polo Shirt" /></a>
+          <a href="img/photo-3.jpg" class="thumb" title="Pierre Cardin"><img src="img/thumb-3.jpg" alt="Mens Polo Shirt" /></a>
+          <a href="img/photo-4.jpg" class="thumb" title="Pierre Cardin"><img src="img/thumb-4.jpg" alt="Mens Polo Shirt" /></a>
+          <a href="img/photo-5.jpg" class="thumb" title="Pierre Cardin"><img src="img/thumb-5.jpg" alt="Mens Polo Shirt" /></a>
+        </div>
+      </div>
+      <div class="description">
+        <p class="standfirst">
+          <strong>Pierre Cardin Cut And Sew Polo Shirt Mens</strong>
+        </p>
+        <p>
+          Designed with a classic fold down collar that features a three button fastening placket, three cut and sew tri-coloured panels, single coloured back and short sleeves.
+        </p>
+        <p><strong>$10.75</strong></p>
+        <form action="#">
+        <p><strong>Size:</strong>
+          <select class="choice">
+            <option value="Small" selected>Small</option>
+            <option value="Medium">Medium</option>
+            <option value="Large">Large</option>
+            <option value="Extra Large">Extra Large</option>
+            <option value="XX Large">XX Large</option>
+          </select>
+        </p>
+        <p><strong>Quantity:</strong> <input class="choice" id="number" type="number" value="1" />
+        </p>
+      </form>
+        <a href="#" id="buy">Buy now</a>
+      </div>
+    </section>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/viewer.js"></script>
+  </body>
+</html>
